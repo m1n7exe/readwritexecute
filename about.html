@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Me</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet" />
+  <style>
+    /* Base Reset */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Fira Code", monospace;
+      background-color: #121212;
+      color: #f1f1f1;
+      line-height: 1.6;
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .article-title {
+      font-size: 2.5rem;
+      color: #00f7ff;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    .about {
+      font-size: 1.1rem;
+      color: #ddd;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .about p {
+      white-space: pre-line;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem;
+      }
+
+      .article-title {
+        font-size: 2rem;
+      }
+
+      .about {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1 class="article-title">About Me</h1>
+  <section class="about">
+    <p>
+      Hello World, It's Iso.
+      
+      This is a collection of my projects, findings, walkthroughs, blogs and  exploits.
+      My daily focus is understanding how systems are exploited — and how to prevent it.
+    </p>
+    <p>
+      This blog is where I document technical write-ups, CTF walkthroughs, and personal research notes from the field. Sharing my findings in a way both the technical and non-technical audience can comprehend.
+    </p>
+
+    <p>
+        You are always welcome to have a look around,
+
+        - Iso 
+    </p>
+    
+  </section>
+</body>
+</html>
