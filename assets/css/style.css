@@ -1,0 +1,62 @@
+/* Base Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Fira Code", monospace, monospace;
+  background-color: #121212;
+  color: #f1f1f1;
+  line-height: 1.6;
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.article-title {
+  font-size: 2.5rem;
+  color: #00f7ff;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* Each step container */
+.step {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Paragraph in steps */
+.step p {
+  font-size: 1.1rem;
+  color: #ddd;
+  white-space: pre-line; /* Preserve line breaks */
+}
+
+/* Images below text */
+.step img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 247, 255, 0.3);
+  object-fit: contain;
+  aspect-ratio: 16 / 9;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+
+  .article-title {
+    font-size: 2rem;
+  }
+
+  .step p {
+    font-size: 1rem;
+  }
+}
